@@ -1,0 +1,11 @@
+<%= link_to 'Home', root_path, class: 'btn btn-secondary m-2' %>
+<div class="container my-3">
+  <div class="row">
+    <div class="col-12">
+      <h1>Flashcard <%= @flashcard.id %></h1>
+      <div class="card">
+        <h2>Sentence: <%= @flashcard.sentences.first.content %></h2>
+      </div>
+    </div>
+  </div>
+</div>
